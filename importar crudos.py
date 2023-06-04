@@ -28,7 +28,7 @@ def main():
 
     camera_drive_index = int(input("Select Sony A7 drive from list (enter index): ")) - 1
     google_drive_index = int(input("Select jmcafferata@gmail.com virtual drive from list (enter index): ")) - 1
-    data_drive_index = int(input("Select Data drive from list (enter index): ")) - 1
+    data_drive_index = int(input("Select Playground drive from list (enter index): ")) - 1
 
     camera_drive = drives[camera_drive_index]
     google_drive = drives[google_drive_index]
